@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    
+    <title>Alura Encriptador</title>
+</head>
+<body>
+    
+    <main>
+        <div class="contenedor-padre">
+            <div class="contenedor-izq">
+                <h1><img class="logo" src="images/Logo.png" alt="Logo de Alura Encriptador"></h1>
+                <p>
+                    Alura Encriptador es una solución fácil y segura para proteger su información privada. Con su interfaz intuitiva, usted puede encriptar y desencriptar su texto con un solo clic.
+                    <br>
+                    <br>
+                    El programa utiliza un algoritmo de encriptación avanzado para garantizar la privacidad de sus datos, lo que significa que sólo usted y aquellos a los que desee compartir su información encriptada podrán acceder a ella. Además, puede copiar fácilmente su texto encriptado y pegalo en cualquier lugar que desee.
+                    <br>
+                    <br>
+                    Con la encriptación de su información, puede estar seguro de que sus datos están protegidos y seguros, independientemente de dónde los guarde o con quién los comparta.</p>
+            </div>
+        
+            <div class="contenedor-der">
+                <div class="seccion-1">
+                    <div class="bloqueEncriptador">
+                        <textarea id="bloqueEncriptador" placeholder="Escriba el texto que desee encriptar" cols="50" rows="10"></textarea>
+                    </div>
+                    <div class="botones">
+                        <button id="botonEncriptar">Encriptar</button>
+                        <button id="botonDesencriptar">Desencriptar</button>    
+                    </div>
+                </div>
+        
+                <div class="seccion-2">
+                    <div>
+                        <textarea id="bloqueDesencriptado" placeholder="No hay texto aún" cols="50" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <button id="botonCopiar">Copiar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <script src="script.js"></script>
+    
+    </main>
+
+    <footer class="footer">
+        <p class="copyright">&copy Copyright Renato Coello - 2023</p>
+    </footer>
+</body>
+</html>
